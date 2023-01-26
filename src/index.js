@@ -22,7 +22,7 @@ function calculateAll() {
    // updateSubtotal(producto);
   // ITERATION 3
   //... your code goes here
-  let elementoTotal = document.querySelector('#total-value span')
+  let elementoTotal = document.getElementById('total-value').querySelector("span");
   elementoTotal.innerHTML = total;
 }
 // ITERATION 4
